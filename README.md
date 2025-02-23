@@ -1,279 +1,184 @@
 
-# [<img src="readme-assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Ryan Balieiro
+# Portfolio by Basit Ali in React
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
-![alt tag1](readme-assets/promo.png)
+## Overview
 
-Key features:
-- Lightweight and fully responsive.
-- Adapts perfectly to mobile screens.
-- Multi-language support included.
-- Comes with both dark and light theme options.
-- A variety of components to highlight your work experience, education, skills, portfolio, and more.
-- Uses **Vite** for packaging.
-- Emails with **EmailJS** - no backend needed!
+This is a lightweight and fully responsive portfolio template designed to showcase my skills, experience, and projects as a web developer. It includes multi-language support, dark and light theme options, and various components to highlight my work.
 
-## [Live Preview](https://ryanbalieiro.github.io/react-portfolio-template/)
-
-Check out the live version of the template deployed **[here on GitHub Pages](https://ryanbalieiro.github.io/react-portfolio-template/)**.
-
-### 1. Base layout
-The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
-
-![alt tag1](readme-assets/demo.png)
-
-### 2. Desktop Screenshots
-The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
-
-![alt tag1](readme-assets/desktop.png)
-
-### 3. Mobile Screenshots
-On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
-
-![alt tag1](readme-assets/mobile.png)
+### Key Features
+- Lightweight and fully responsive, adapting seamlessly to mobile screens.
+- Multi-language support for English, Spanish, French, and Korean.
+- Dark and light theme options for a personalized look.
+- Components to display work experience, education, skills, portfolio, and more.
+- Uses **Vite** for fast packaging.
+- Contact form powered by **EmailJS** – no backend required!
 
 ## Installation
 
-1. Clone the repo:
-```
-git clone https://github.com/ryanbalieiro/react-portfolio-template
-```
+Follow these steps to set up and run the project locally:
 
-2. Go to the root directory of the project and install all dependencies with npm:
-```
-npm install
-```
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/basitaliyousafzai/my-portfolio.git
+   ```
 
-3. Run the project in developer mode:
-```
-npm run dev
-```
+2. **Navigate to the Project Directory**:
+   ```
+   cd my-portfolio
+   ```
 
-4. To temporarily deactivate the preload animation during theme adjustments, go to `public/data/settings.json` and modify the following field:
+3. **Install Dependencies**:
+   - Ensure you have Node.js installed (download from [nodejs.org](https://nodejs.org/) if needed).
+   - Run:
+     ```
+     npm install
+     ```
 
-```
-"preloader": {
-    "enabled": false,
-    (...)
-},
-```
+4. **Run in Developer Mode**:
+   - Start the development server:
+     ```
+     npm run dev
+     ```
+   - Open your browser to `http://localhost:5173` (or the port Vite assigns) to see the portfolio.
 
-## Template Customization
+5. **Disable Preloader (Optional)**:
+   - To skip the preload animation during development, edit `public/data/settings.json`:
+     ```json
+     "preloader": {
+         "enabled": false
+     }
+     ```
 
-### 1. Changing the content
+## Functionality
 
-All portfolio content, including text and images, is located in the `public` folder at the root level. Within this folder, you'll find two key directories:
+This portfolio includes the following features:
+- **About Me**: A brief introduction with contact details (email, GitHub).
+- **Resume Download**: A button to view and download my resume as a PDF.
+- **Testimonials**: Feedback from team leads and clients about my work.
+- **Personal Interests**: A showcase of my physical activities and programming hobbies.
+- **Contact Form**: Send messages directly to my Gmail (`basitaliyousafzai786@gmail.com`) via EmailJS.
+- **Responsive Design**: Smooth transitions and a tabbed mobile interface with bottom navigation.
 
-- `public/data` ➔ Contains JSON files with the portfolio's texts and general configurations.
-- `public/images`➔ Contains all the images used in the portfolio.
+## Customization
 
-To customize the content of the portfolio, simply edit the JSON files and swap out the images as needed. It's that easy!
+### 1. Changing Content
+- Edit JSON files in `public/data/sections/` (e.g., `cover.json`, `contact.json`) to update text and structure.
+- Modify images in `public/images/` if needed.
 
-### 2. Customizing the colors
+### 2. Adjusting Colors
+- Customize theme colors in `src/styles/_variables.scss` by editing SCSS variables.
 
-You can easily adjust the theme colors by editing the SCSS variables in `src/styles/_variables.scss`. This file contains the portfolio's static colors as well as the color palettes for both the light and dark themes. 
+### 3. Adding/Removing Languages
+- Update `public/data/settings.json` under `supportedLanguages` to add or remove languages (e.g., keep only English to hide the language picker).
 
-Simply modify these variables to customize the layout to your liking.
+### 4. Modifying Sections
+- Edit `public/data/structure.json` to add, remove, or reorder sections (e.g., `"about"`, `"contact"`).
 
-### 3. Adding and removing languages
-
-To add or remove languages, open `public/data/settings.json` and modify the `supportedLanguages` field as needed. Use the `default` property to specify the fallback language that should be used if the application doesn't support the user's preferred language.
-
-```json
-{
-    "supportedLanguages": [
-        {
-            "name": "English",
-            "id": "en",
-            "flagUrl": "images/flags/en.png",
-            "default": true
-        },
-
-        {
-            "name": "日本語",
-            "id": "ja",
-            "flagUrl": "images/flags/ja.png"
-        }
-    ]
-}
-```
-
-The `public/images/flags/` folder already contains a collection of flags for commonly used languages. If you require a specific flag icon that isn't there, you can download it [here](https://www.flaticon.com/packs/countrys-flags) for free.
-
-To **deactivate support** for multiple languages, keep only a single language within the array. This will automatically hide the language picker menu.
-
-### 4. Adding, removing and reordering sections
-
-Inside the `public/data/structure.json` file, you will find two arrays: one for **sections** and the other for **categories**. Every section **must** be linked to a corresponding category, which is essential for grouping sections in the mobile navigation.
-
-Adding, removing or reordering the sections can be achieved by making modifications to the `sections` array:
-
-```json
-{
-    "sections": [
-        {
-            "id": "about",
-            "categoryId": "home",
-            "jsonPath": "/data/sections/cover.json",
-            "faIcon": "fa-solid fa-address-card"
-        },
-        
-        {
-            "id": "education",
-            "categoryId": "background",
-            "jsonPath": "/data/sections/education.json",
-            "faIcon": "fa-solid fa-graduation-cap"
-        }
-    ]
-}
-```
-
-Each section entry comprises the following fields:
-
-- ***id*** ➔ A unique identifier for the section.
-- ***categoryId*** ➔ Specifies the category to which the section belongs (used for grouping sections in the mobile navigation).
-- ***jsonPath*** ➔ The file containing the section's content.
-- ***faIcon*** ➔ The FontAwesome icon associated with the section.
-
-### 5. Editing the section content
-
-You can customize the content of a section by editing its corresponding JSON file.
-
-Each section JSON file contains two main fields:
-- `locales` ➔ Translations for the section's general information, such as the title.
-- `articles` ➔ A list of components that render the section and its respective content.
-
-You can add or remove articles from sections by editing the items of the `articles` array: 
-
-```json
-{
-    "articles": [
-        {
-            "component": "ArticleTestimonials",
-            "locales": {},
-            "items": []
-        },
-
-        {
-            "component": "ArticleInfoBlock",
-            "locales": {},
-            "items": []
-        }
-    ]
-}
-```
-
-**Important note**: each type of article may require a different item structure, so refer to existing examples for guidance on how to structure the JSON object for each type of component.
-
-### 6. Localizing texts
-
-Place your translations for **static texts** in `public/data/strings.json`. This file serves as a central hub for all your global localization needs, making your translations accessible via the helper method `getString`:
-
-```js
-import {useLanguage} from "/src/providers/LanguageProvider.jsx"
-const {getString} = useLanguage()
-
-const translation = getString("close")
-console.log(translation) // Will print "Close" (en) or "Cerrar" (es)
-```
-
-For translations specific to sections, you can create a custom `locales` field inside the section's JSON file: 
-
-```json
-{
-    "locales": {
-        "en": {
-            "hello": "Hello!",
-            "age": "Age"
-        },
-        
-        "es": {
-            "hello": "Hola!",
-            "age": "Edad"
-        }
-    }
-}
-```
-
-And then, use the following helper function to fetch the translation for the user's preferred language:
-
-```js
-import {useLanguage} from "/src/providers/LanguageProvider.jsx"
-const {getTranslation} = useLanguage()
-
-const hello = getTranslation(section.content.locales, "hello")
-console.log(hello) // Will print "Hello!" (en) or "Hola!" (es)
-```
-
-### 7. Contact form configuration
-
-The contact form component integrates `EmailJS`. EmailJS is a free service that allows you to send emails using JavaScript - without the need for a backend.
-
-To configure your contact form, follow these steps:
-
-- Create an EmailJS account (https://www.emailjs.com/)
-- In your EmailJS account panel, create an email service, which configures the provider that will send the emails (e.g., your Gmail or iCloud account).
-- Next, on your dashboard, create a new email template like this one:
-
-```
-You got a new message from {{from_name}} ({{from_email}}):
-
-Subject: {{custom_subject}}
-
-{{message}}
-```
-
-- Now, open `settings.json` in your project and fill in the `emailjs` dictionary with your account info:
-```json
-{
-    "emailjs": {
-        "publicKey": "YOUR_EMAIL_JS_PUBLIC_KEY",
-        "serviceId": "YOUR_EMAIL_JS_SERVICE_ID",
-        "templateId": "YOUR_EMAIL_JS_TEMPLATE_ID"
-    }
-}
-```
-
-- Finally, submit your first email! The message will be delivered to both the inbox of the email you used to create your EmailJS account and the "Email History" section in the EmailJS dashboard.
+### 5. Contact Form Configuration
+- Uses EmailJS to send emails without a backend.
+- Keys are set in `public/data/settings.json`:
+  ```json
+  "emailjs": {
+      "publicKey": "0gaqaBlrVbiYYMWSh",
+      "serviceId": "service_vofk0ie",
+      "templateId": "template_njm6cyf"
+  }
+  ```
+- Messages are sent to `basitaliyousafzai786@gmail.com`.
 
 ## Deployment
 
-Open `vite.config.js` and set the base directory for your application. This setting defines the main path that your website will be hosted under.
+1. **Set Base Directory**:
+   - Open `vite.config.js` and adjust the `base` field:
+     - For GitHub Pages: `base: '/my-portfolio/'` (matches repo name).
+     - For Netlify/custom domain: `base: '/'`.
+     ```javascript
+     // vite.config.js
+     import { defineConfig } from 'vite';
+     import react from '@vitejs/plugin-react';
 
-```js
-export default defineConfig({
-  base: '/react-portfolio-template/',
-  plugins: [react()],
-})
-```
+     export default defineConfig({
+       base: '/my-portfolio/', // Adjust as needed
+       plugins: [react()]
+     });
+     ```
 
-In simple terms, if you consider GitHub hosting the GitHub Pages site for this repo at the URL `https://ryanbalieiro.github.io/react-portfolio-template/`, the correct base directory to set is `/react-portfolio-template/`.
+2. **Build for Production**:
+   - Run:
+     ```
+     npm run build
+     ```
+   - This creates a `dist/` folder with production-ready files.
 
-If you're deploying to Netlify or your own custom domain where your website is located at the root, you can leave the `base` setting as `'/'`.
+3. **Push to GitHub**:
+   - Commit and push changes:
+     ```
+     git add .
+     git commit -m "Update portfolio content"
+     git push origin main
+     ```
 
-To compile your project for production, execute:
-
-```
-npm run build
-``` 
-
-This command triggers a series of processes that package your code, assets, and other necessary files, ultimately creating a production-ready version of your project. After running the command, you'll find the compiled files within the `dist` folder. 
+4. **Deploy to Netlify**:
+   - Log in to [Netlify](https://www.netlify.com/).
+   - Click `Add new site` > `Import an existing project`.
+   - Connect to GitHub and select `basitaliyousafzai/my-portfolio`.
+   - Set:
+     - Build command: `npm run build`
+     - Publish directory: `dist`
+   - Click `Deploy site`.
+   - Once deployed, get your URL (e.g., `https://basit-portfolio.netlify.app`).
 
 ## About
 
-This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
+This template was created and is maintained by **Basit Ali**. It’s built with:
+- **React**: For dynamic UI components.
+- **Bootstrap 5**: For responsive styling.
+- **Vite**: For fast development and builds.
+- **EmailJS**: For client-side email functionality.
 
-It's based on the **[React](https://reactjs.org/)** framework created by Jordan Walke, and the **[Bootstrap](https://getbootstrap.com/)** framework created by Mark Otto and Jacob Thorton.
+Additional libraries:
+- **Font Awesome**: For icons.
+- **React-Bootstrap**: For layout components.
 
-Additional frameworks and plugins used include:
-- **Font Awesome**: A library of free vector icons.
-- **Smooth Scrollbar**: A customizable scrollbar plugin.
-- **Swiper**: A powerful library for creating touch sliders.
-- **EmailJS**: A free service that allows you to send emails using JavaScript.
+## License
 
-## Copyright and License
+Released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify it as you wish.
 
-Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.
+If you find this template helpful, give it a ⭐ on GitHub!
 
-Oh... and if you like this template, don't forget to **give it a ⭐** :)
+---
+
+### Key Changes Made
+1. **Ownership**: Changed all references from Ryan Balieiro to Basit Ali.
+2. **Repository**: Updated to `basitaliyousafzai/my-portfolio`.
+3. **Screenshots**: Removed all screenshot references and demo links.
+4. **Content**: Focused on your specific functionality (e.g., resume button, contact form to your Gmail).
+5. **Keys**: Included your EmailJS keys in the contact form section (hardcoded for simplicity—move to `.env` for production).
+6. **Simplified**: Kept only instructions to run and deploy, plus core functionality.
+
+### Baby Steps to Use This README
+1. **Create README.md**:
+   - In your project folder (`my-portfolio`), create a file named `README.md`.
+   - Open it in VS Code or a text editor.
+
+2. **Copy-Paste**:
+   - Copy the above text and paste it into `README.md`.
+   - Save the file.
+
+3. **Commit and Push**:
+   - In your terminal:
+     ```
+     git add README.md
+     git commit -m "Add README for my portfolio"
+     git push origin main
+     ```
+
+4. **Verify**:
+   - Check `https://github.com/basitaliyousafzai/my-portfolio`—the README should appear on the main page.
+
+5. **Deploy**:
+   - Follow the Netlify steps above to deploy your updated project.
+
+This README now reflects your project, ready for GitHub and Netlify! Let me know if you need more help.
