@@ -1,0 +1,481 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+        "es": {
+            "title": "Habilidades",
+            "title_long_prefix": "Explora",
+            "title_long": "Mis **Habilidades**"
+        },
+        "fr": {
+            "title": "Capacités",
+            "title_long_prefix": "Explorez",
+            "title_long": "Mes **Compétences**"
+        },
+        "ko": {
+            "title": "스킬",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**스킬**입니다"
+        }
+    },
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** design",
+                            "text": "Crafting responsive and user-friendly interfaces with React, ASP.NET Core, and Angular!"
+                        },
+                        "es": {
+                            "title": "Diseño de **sitios web**",
+                            "text": "¡Creando interfaces responsivas y amigables con React, ASP.NET Core y Angular!"
+                        },
+                        "fr": {
+                            "title": "Conception de **sites web**",
+                            "text": "Création d’interfaces réactives et conviviales avec React, ASP.NET Core et Angular !"
+                        },
+                        "ko": {
+                            "title": "**웹사이트** 디자인",
+                            "text": "React, ASP.NET Core, Angular로 반응형 및 사용자 친화적인 인터페이스 제작!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "Optimizing data with SQL and MongoDB for scalable solutions!"
+                        },
+                        "es": {
+                            "title": "Gestión de **bases de datos**",
+                            "text": "¡Optimizando datos con SQL y MongoDB para soluciones escalables!"
+                        },
+                        "fr": {
+                            "title": "Gestion de **bases de données**",
+                            "text": "Optimisation des données avec SQL et MongoDB pour des solutions évolutives !"
+                        },
+                        "ko": {
+                            "title": "**데이터베이스** 관리",
+                            "text": "SQL과 MongoDB로 확장 가능한 솔루션을 위한 데이터 최적화!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**App** creation",
+                            "text": "Building efficient mobile apps with Flutter and Firebase!"
+                        },
+                        "es": {
+                            "title": "Creación de **aplicaciones**",
+                            "text": "¡Construyendo aplicaciones móviles eficientes con Flutter y Firebase!"
+                        },
+                        "fr": {
+                            "title": "Création d'**applications**",
+                            "text": "Construction d’applications mobiles efficaces avec Flutter et Firebase !"
+                        },
+                        "ko": {
+                            "title": "**앱** 제작",
+                            "text": "Flutter와 Firebase로 효율적인 모바일 앱 제작!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST **APIs**",
+                            "text": "Developing seamless APIs with ASP.NET Core and Node.js!"
+                        },
+                        "es": {
+                            "title": "APIs **REST**",
+                            "text": "¡Desarrollando APIs fluidas con ASP.NET Core y Node.js!"
+                        },
+                        "fr": {
+                            "title": "APIs **REST**",
+                            "text": "Développement d’APIs fluides avec ASP.NET Core et Node.js !"
+                        },
+                        "ko": {
+                            "title": "REST **API**",
+                            "text": "ASP.NET Core와 Node.js로 원활한 API 개발!"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-microsoft",
+                        "faColors": {"bg": "#0078D4", "fill": "#EEE"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "08/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ASP.NET Core",
+                            "info": "9 months of experience working on projects like D.Watson, Butt Karhai, Margala Packages, and BND Books, managing back-end development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C#",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SQL (SSMS)",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frontend"}
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-microsoft",
+                        "faColors": {"bg": "#0078D4", "fill": "#EEE"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "08/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ASP.NET Core (Front-end)",
+                            "info": "9 months of experience crafting front-end interfaces for projects like D.Watson, Butt Karhai, Margala Packages, and BND Books."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML",
+                            "info": "Core skill for building structured web interfaces."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS",
+                            "info": "Styling web applications for responsive design."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": "Adding interactivity to web applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-angular",
+                        "faColors": {"bg": "#DD0031", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "info": "Building dynamic single-page applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": "1 year of experience working on front-end development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-google",
+                        "faColors": {"bg": "#4285F4", "fill": "#EEE"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flutter",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "es": { "title": "Idiomas" },
+                "fr": { "title": "Langues" },
+                "ko": { "title": "언어" }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/pk.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Pushto",
+                            "info": "Native speaker with strong communication skills.",
+                            "tags": ["Native"]
+                        },
+                        "es": {
+                            "title": "Pushto",
+                            "info": "Hablante nativo con fuertes habilidades de comunicación.",
+                            "tags": ["Nativo"]
+                        },
+                        "fr": {
+                            "title": "Pushto",
+                            "info": "Locuteur natif avec de solides compétences en communication.",
+                            "tags": ["Natif"]
+                        },
+                        "ko": {
+                            "title": "푸시토어",
+                            "info": "모국어 수준의 강한 의사소통 능력.",
+                            "tags": ["모국어"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in professional and technical communication.",
+                            "tags": ["Fluent"]
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "info": "Fluido en comunicación profesional y técnica.",
+                            "tags": ["Fluido"]
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "info": "Fluent dans la communication professionnelle et technique.",
+                            "tags": ["Courant"]
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "info": "전문 및 기술적 의사소통에 유창함.",
+                            "tags": ["유창"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/pk.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Urdu",
+                            "info": "Native proficiency with excellent comprehension and expression.",
+                            "tags": ["Native"]
+                        },
+                        "es": {
+                            "title": "Urdu",
+                            "info": "Competencia nativa con excelente comprensión y expresión.",
+                            "tags": ["Nativo"]
+                        },
+                        "fr": {
+                            "title": "Urdu",
+                            "info": "Compétence native avec une excellente compréhension et expression.",
+                            "tags": ["Natif"]
+                        },
+                        "ko": {
+                            "title": "우르두어",
+                            "info": "모국어 수준의 뛰어난 이해와 표현 능력.",
+                            "tags": ["모국어"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

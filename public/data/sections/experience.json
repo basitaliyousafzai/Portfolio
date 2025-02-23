@@ -1,0 +1,108 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionnel**"
+        },
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "나의",
+            "title_long": "**직업적** 경험"
+        }
+    },
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": {"bg": "#0078D4", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "08/01/2024",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**ASP.NET Core Developer**",
+                            "info": "Multi Tech Solutions, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Currently leading the development and optimization of enterprise-level applications at Multi Tech Solutions. My role involves enhancing performance, resolving technical bottlenecks, and implementing new features for projects like D.Watson (e-commerce), Margala Packages (packaging solutions), and Butt Karhai (restaurant management). Key contributions include reducing application load times by 20% through optimized database queries using <b>Entity Framework</b> and <b>SSMS</b>, developing real-time inventory tracking systems, and ensuring code quality with <b>Visual Studio</b> and <b>Git</b>. I also utilize <b>Postman</b> for API testing to streamline development workflows.</p>",
+                            "tags": ["ASP.NET Core", "C#", "SQL", "SSMS", "Entity Framework", "Visual Studio", "Git", "Postman", "Performance Optimization"]
+                        },
+                        "es": {
+                            "title": "Desarrollador **ASP.NET Core**",
+                            "info": "Multi Tech Solutions, Rawalpindi, Pakistán",
+                            "text": "<p style='text-align: justify;'>Actualmente liderando el desarrollo y la optimización de aplicaciones a nivel empresarial en Multi Tech Solutions. Mi rol implica mejorar el rendimiento, resolver cuellos de botella técnicos e implementar nuevas funcionalidades para proyectos como D.Watson (comercio electrónico), Margala Packages (soluciones de empaque) y Butt Karhai (gestión de restaurantes). Mis contribuciones clave incluyen reducir los tiempos de carga de aplicaciones en un 20% mediante consultas de base de datos optimizadas con <b>Entity Framework</b> y <b>SSMS</b>, desarrollar sistemas de seguimiento de inventario en tiempo real y garantizar la calidad del código con <b>Visual Studio</b> y <b>Git</b>. También utilizo <b>Postman</b> para pruebas de API y optimizar flujos de trabajo de desarrollo.</p>",
+                            "tags": ["ASP.NET Core", "C#", "SQL", "SSMS", "Entity Framework", "Visual Studio", "Git", "Postman", "Optimización de Rendimiento"]
+                        },
+                        "fr": {
+                            "title": "Développeur **ASP.NET Core**",
+                            "info": "Multi Tech Solutions, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Actuellement en charge du développement et de l’optimisation d’applications au niveau entreprise chez Multi Tech Solutions. Mon rôle consiste à améliorer les performances, résoudre les goulets d’étranglement techniques et implémenter de nouvelles fonctionnalités pour des projets tels que D.Watson (e-commerce), Margala Packages (solutions d’emballage) et Butt Karhai (gestion de restaurants). Mes principales contributions incluent une réduction de 20 % des temps de chargement des applications grâce à des requêtes de base de données optimisées avec <b>Entity Framework</b> et <b>SSMS</b>, le développement de systèmes de suivi d’inventaire en temps réel et l’assurance de la qualité du code avec <b>Visual Studio</b> et <b>Git</b>. J’utilise également <b>Postman</b> pour tester les API et rationaliser les flux de travail de développement.</p>",
+                            "tags": ["ASP.NET Core", "C#", "SQL", "SSMS", "Entity Framework", "Visual Studio", "Git", "Postman", "Optimisation des Performances"]
+                        },
+                        "ko": {
+                            "title": "**ASP.NET Core 개발자**",
+                            "info": "Multi Tech Solutions, 라왈핀디, 파키스탄",
+                            "text": "<p style='text-align: justify;'>현재 Multi Tech Solutions에서 엔터프라이즈 수준 애플리케이션의 개발 및 최적화를 이끌고 있습니다. 제 역할은 성능 향상, 기술적 병목 현상 해결, D.Watson (전자상거래), Margala Packages (포장 솔루션), Butt Karhai (레스토랑 관리)와 같은 프로젝트에 새로운 기능을 구현하는 것입니다. 주요 기여로는 <b>Entity Framework</b>와 <b>SSMS</b>를 사용한 최적화된 데이터베이스 쿼리로 애플리케이션 로드 시간을 20% 줄이고, 실시간 재고 추적 시스템을 개발하며, <b>Visual Studio</b>와 <b>Git</b>으로 코드 품질을 보장한 것입니다. 또한 <b>Postman</b>을 활용해 API 테스트를 수행하여 개발 워크플로우를 간소화합니다.</p>",
+                            "tags": ["ASP.NET Core", "C#", "SQL", "SSMS", "Entity Framework", "Visual Studio", "Git", "Postman", "성능 최적화"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-alt",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "09/01/2023",
+                        "end": "03/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Flutter Developer**",
+                            "info": "Dev for Health, Islamabad, Pakistan",
+                            "text": "<p style='text-align: justify;'>Designed and developed cross-platform mobile applications for healthcare solutions at Dev for Health. I utilized <b>Flutter</b> for the front-end and integrated it with <b>.NET Core</b> backends, delivering scalable apps with real-time data synchronization. Key achievements include improving patient data management efficiency by 15% and enhancing user accessibility through intuitive UI/UX design.</p>",
+                            "tags": ["Flutter", ".NET Core", "Mobile Development", "Healthcare", "UI/UX"]
+                        },
+                        "es": {
+                            "title": "Desarrollador **Flutter**",
+                            "info": "Dev for Health, Islamabad, Pakistán",
+                            "text": "<p style='text-align: justify;'>Diseñé y desarrollé aplicaciones móviles multiplataforma para soluciones de salud en Dev for Health. Utilicé <b>Flutter</b> para el front-end y lo integré con backends de <b>.NET Core</b>, entregando aplicaciones escalables con sincronización de datos en tiempo real. Logros clave incluyen mejorar la eficiencia de la gestión de datos de pacientes en un 15% y optimizar la accesibilidad del usuario mediante un diseño UI/UX intuitivo.</p>",
+                            "tags": ["Flutter", ".NET Core", "Desarrollo Móvil", "Salud", "UI/UX"]
+                        },
+                        "fr": {
+                            "title": "Développeur **Flutter**",
+                            "info": "Dev for Health, Islamabad, Pakistan",
+                            "text": "<p style='text-align: justify;'>Conçu et développé des applications mobiles multiplateformes pour des solutions de santé chez Dev for Health. J’ai utilisé <b>Flutter</b> pour le front-end et l’ai intégré à des backends <b>.NET Core</b>, offrant des applications évolutives avec synchronisation de données en temps réel. Parmi les réalisations clés, j’ai amélioré l’efficacité de la gestion des données des patients de 15 % et optimisé l’accessibilité utilisateur grâce à une conception UI/UX intuitive.</p>",
+                            "tags": ["Flutter", ".NET Core", "Développement Mobile", "Santé", "UI/UX"]
+                        },
+                        "ko": {
+                            "title": "**Flutter 개발자**",
+                            "info": "Dev for Health, 이슬라마바드, 파키스탄",
+                            "text": "<p style='text-align: justify;'>Dev for Health에서 의료 솔루션을 위한 크로스 플랫폼 모바일 애플리케이션을 설계하고 개발했습니다. <b>Flutter</b>를 프론트엔드에 사용하고 <b>.NET Core</b> 백엔드와 통합하여 실시간 데이터 동기화가 가능한 확장 가능한 앱을 제공했습니다. 주요 성과로는 환자 데이터 관리 효율성을 15% 향상시키고 직관적인 UI/UX 설계를 통해 사용자 접근성을 개선한 것입니다.</p>",
+                            "tags": ["Flutter", ".NET Core", "모바일 개발", "의료", "UI/UX"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

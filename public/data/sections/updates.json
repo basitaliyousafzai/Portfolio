@@ -1,0 +1,240 @@
+{
+    "locales": {
+        "en": {
+            "title": "Recent Updates",
+            "title_menu": "Updates",
+            "title_long_prefix": "Explore my",
+            "title_long": "Professional **Journey**"
+        },
+        "es": {
+            "title": "Actualizaciones Recientes",
+            "title_menu": "Actualizaciones",
+            "title_long_prefix": "Explora mi",
+            "title_long": "Trayectoria **Profesional**"
+        },
+        "fr": {
+            "title": "Mises à Jour Récentes",
+            "title_menu": "Mises à Jour",
+            "title_long_prefix": "Découvrez mon",
+            "title_long": "Parcours **Professionnel**"
+        },
+        "ko": {
+            "title": "최근 업데이트",
+            "title_menu": "업데이트",
+            "title_long_prefix": "나의",
+            "title_long": "전문 **여정**을 탐색하세요"
+        }
+    },
+    "articles": [
+        {
+            "id": "professional_highlights",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {
+                "en": { "title": "Professional **Highlights**" },
+                "es": { "title": "Destacados **Profesionales**" },
+                "fr": { "title": "Points Forts **Professionnels**" },
+                "ko": { "title": "전문 **하이라이트**" }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {"title": "02", "info": "Companies worked at"},
+                        "es": {"title": "02", "info": "Empresas en las que trabajé"},
+                        "fr": {"title": "02", "info": "Entreprises où j'ai travaillé"},
+                        "ko": {"title": "02", "info": "근무한 회사"}
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {"title": "05", "info": "Technologies in use (ASP.NET Core, Flutter, etc.)"},
+                        "es": {"title": "05", "info": "Tecnologías en uso (ASP.NET Core, Flutter, etc.)"},
+                        "fr": {"title": "05", "info": "Technologies utilisées (ASP.NET Core, Flutter, etc.)"},
+                        "ko": {"title": "05", "info": "사용 중인 기술 (ASP.NET Core, Flutter 등)"}
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-project-diagram",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {"title": "06", "info": "Major projects completed or in progress"},
+                        "es": {"title": "06", "info": "Proyectos principales completados o en curso"},
+                        "fr": {"title": "06", "info": "Projets majeurs achevés ou en cours"},
+                        "ko": {"title": "06", "info": "완료했거나 진행 중인 주요 프로젝트"}
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-graduation-cap",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {"title": "03", "info": "Skills being honed"},
+                        "es": {"title": "03", "info": "Habilidades en perfeccionamiento"},
+                        "fr": {"title": "03", "info": "Compétences en cours d’affinage"},
+                        "ko": {"title": "03", "info": "연마 중인 기술"}
+                    }
+                }
+            ]
+        },
+        {
+            "id": "professional_updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Career **Milestones**" },
+                "es": { "title": "Hitos **Profesionales**" },
+                "fr": { "title": "Jalons **Professionnels**" },
+                "ko": { "title": "경력 **이정표**" }
+            },
+            "items": [
+                {
+                    "dates": {"start": "08/01/2024", "end": null},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Joined **Multi Tech Solutions** as ASP.NET Core Developer",
+                            "text": "<p style='text-align: justify;'>Currently enhancing enterprise applications like D.Watson (e-commerce), Margala Packages (packaging solutions), and Butt Karhai (restaurant management). I’m optimizing performance—recently reduced load times by 20% with database tweaks—and building features like real-time inventory tracking for D.Watson.</p>"
+                        },
+                        "es": {
+                            "title": "Me uní a **Multi Tech Solutions** como Desarrollador de ASP.NET Core",
+                            "text": "<p style='text-align: justify;'>Actualmente mejorando aplicaciones empresariales como D.Watson (comercio electrónico), Margala Packages (soluciones de empaque) y Butt Karhai (gestión de restaurantes). Estoy optimizando el rendimiento—recientemente reduje los tiempos de carga en un 20% con ajustes en la base de datos—y desarrollando funciones como el seguimiento de inventario en tiempo real para D.Watson.</p>"
+                        },
+                        "fr": {
+                            "title": "Rejoint **Multi Tech Solutions** en tant que Développeur ASP.NET Core",
+                            "text": "<p style='text-align: justify;'>Je travaille actuellement sur l’amélioration d’applications d’entreprise comme D.Watson (commerce électronique), Margala Packages (solutions d’emballage) et Butt Karhai (gestion de restaurants). J’optimise les performances—j’ai récemment réduit les temps de chargement de 20 % avec des ajustements de base de données—et je développe des fonctionnalités comme le suivi d’inventaire en temps réel pour D.Watson.</p>"
+                        },
+                        "ko": {
+                            "title": "**Multi Tech Solutions**에 ASP.NET Core 개발자로 합류",
+                            "text": "<p style='text-align: justify;'>현재 D.Watson (전자상거래), Margala Packages (포장 솔루션), Butt Karhai (레스토랑 관리)와 같은 엔터프라이즈 애플리케이션을 개선하고 있습니다. 성능 최적화에 집중하며—최근 데이터베이스 조정으로 로드 시간을 20% 줄였습니다—D.Watson을 위한 실시간 재고 추적과 같은 기능을 개발하고 있습니다.</p>"
+                        }
+                    }
+                },
+                {
+                    "dates": {"start": "01/01/2024", "end": null},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Building the **Ft Engineering E-commerce Application**",
+                            "text": "<p style='text-align: justify;'>Leading the development of a multi-platform e-commerce suite using Flutter and Firebase. The system includes three applications: an admin panel, a staff dashboard, and a client-facing app, all working concurrently with real-time data synchronization. Currently in beta testing, with early feedback praising its intuitive design.</p>"
+                        },
+                        "es": {
+                            "title": "Construyendo la **Aplicación de Comercio Electrónico Ft Engineering**",
+                            "text": "<p style='text-align: justify;'>Liderando el desarrollo de una suite de comercio electrónico multiplataforma usando Flutter y Firebase. El sistema incluye tres aplicaciones: un panel de administración, un dashboard para el personal y una aplicación para clientes, todas funcionando concurrentemente con sincronización de datos en tiempo real. Actualmente en prueba beta, con comentarios iniciales elogiando su diseño intuitivo.</p>"
+                        },
+                        "fr": {
+                            "title": "Développement de l’**Application de Commerce Électronique Ft Engineering**",
+                            "text": "<p style='text-align: justify;'>Je dirige le développement d’une suite e-commerce multiplateforme avec Flutter et Firebase. Le système comprend trois applications : un panneau d’administration, un tableau de bord pour le personnel et une application client, toutes fonctionnant simultanément avec synchronisation des données en temps réel. Actuellement en test bêta, avec des retours initiaux louant son design intuitif.</p>"
+                        },
+                        "ko": {
+                            "title": "**Ft Engineering 전자상거래 애플리케이션** 개발 중",
+                            "text": "<p style='text-align: justify;'>Flutter와 Firebase를 사용하여 다중 플랫폼 전자상거래 제품군을 개발하고 있습니다. 이 시스템은 관리자 패널, 직원 대시보드, 고객용 앱 등 세 가지 애플리케이션을 포함하며, 모두 실시간 데이터 동기화로 동시에 작동합니다. 현재 베타 테스트 중이며, 초기 피드백은 직관적인 디자인을 칭찬하고 있습니다.</p>"
+                        }
+                    }
+                },
+                {
+                    "dates": {"start": "01/01/2024", "end": null},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Developing the **Tailor Management Application**",
+                            "text": "<p style='text-align: justify;'>Creating a mobile application for tailor shops using Flutter and Firebase. The app streamlines order management, tracks measurements, and automates appointment scheduling. Currently in the final stages of development, with a planned release in early 2025.</p>"
+                        },
+                        "es": {
+                            "title": "Desarrollando la **Aplicación de Gestión de Sastrería**",
+                            "text": "<p style='text-align: justify;'>Creando una aplicación móvil para sastrerías usando Flutter y Firebase. La aplicación optimiza la gestión de pedidos, rastrea medidas y automatiza la programación de citas. Actualmente en las etapas finales de desarrollo, con un lanzamiento planeado para principios de 2025.</p>"
+                        },
+                        "fr": {
+                            "title": "Développement de l’**Application de Gestion pour Tailleurs**",
+                            "text": "<p style='text-align: justify;'>Je crée une application mobile pour les tailleurs avec Flutter et Firebase. L’application rationalise la gestion des commandes, suit les mesures et automatise la prise de rendez-vous. Actuellement en phase finale de développement, avec une sortie prévue début 2025.</p>"
+                        },
+                        "ko": {
+                            "title": "**재단사 관리 애플리케이션** 개발 중",
+                            "text": "<p style='text-align: justify;'>Flutter와 Firebase를 사용하여 재단사 가게를 위한 모바일 애플리케이션을 만들고 있습니다. 이 앱은 주문 관리, 치수 추적, 약속 일정 자동화를 간소화합니다. 현재 개발의 막바지 단계에 있으며, 2025년 초에 출시될 예정입니다.</p>"
+                        }
+                    }
+                },
+                {
+                    "dates": {"start": "09/01/2023", "end": "03/01/2024"},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Worked as **Flutter Developer** at Dev for Health",
+                            "text": "<p style='text-align: justify;'>Designed and developed cross-platform mobile applications using Flutter, integrated with .NET Core backends. Focused on delivering scalable healthcare solutions, improving patient data management, and enhancing user accessibility for healthcare providers.</p>"
+                        },
+                        "es": {
+                            "title": "Trabajé como **Desarrollador de Flutter** en Dev for Health",
+                            "text": "<p style='text-align: justify;'>Diseñé y desarrollé aplicaciones móviles multiplataforma usando Flutter, integradas con backends de .NET Core. Me enfoqué en entregar soluciones de salud escalables, mejorar la gestión de datos de pacientes y aumentar la accesibilidad para los proveedores de atención médica.</p>"
+                        },
+                        "fr": {
+                            "title": "Travaillé comme **Développeur Flutter** chez Dev for Health",
+                            "text": "<p style='text-align: justify;'>Conçu et développé des applications mobiles multiplateformes avec Flutter, intégrées à des backends .NET Core. Concentré sur la fourniture de solutions de santé évolutives, l’amélioration de la gestion des données des patients et l’accessibilité pour les prestataires de soins.</p>"
+                        },
+                        "ko": {
+                            "title": "Dev for Health에서 **Flutter 개발자**로 근무",
+                            "text": "<p style='text-align: justify;'>Flutter를 사용하여 .NET Core 백엔드와 통합된 크로스 플랫폼 모바일 애플리케이션을 설계하고 개발했습니다. 확장 가능한 의료 솔루션 제공, 환자 데이터 관리 개선, 의료 제공자의 접근성 향상에 중점을 두었습니다.</p>"
+                        }
+                    }
+                },
+                {
+                    "dates": {"start": "01/01/2023", "end": null},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Completed **School Management System** Project",
+                            "text": "<p style='text-align: justify;'>Developed a full-stack web application for Pindi Foundation School using React, Node.js, Express, and MongoDB. The system streamlined administrative tasks (e.g., attendance tracking, fee management) and academic processes (e.g., grade reporting, timetable scheduling), improving operational efficiency by 30%.</p>"
+                        },
+                        "es": {
+                            "title": "Completé el proyecto **Sistema de Gestión Escolar**",
+                            "text": "<p style='text-align: justify;'>Desarrollé una aplicación web full-stack para Pindi Foundation School usando React, Node.js, Express y MongoDB. El sistema optimizó tareas administrativas (por ejemplo, seguimiento de asistencia, gestión de pagos) y procesos académicos (por ejemplo, informes de calificaciones, programación de horarios), mejorando la eficiencia operativa en un 30%.</p>"
+                        },
+                        "fr": {
+                            "title": "Projet **Système de Gestion Scolaire** achevé",
+                            "text": "<p style='text-align: justify;'>Développé une application web full-stack pour Pindi Foundation School avec React, Node.js, Express et MongoDB. Le système a rationalisé les tâches administratives (par exemple, suivi des présences, gestion des frais) et les processus académiques (par exemple, rapports de notes, planification des emplois du temps), améliorant l’efficacité opérationnelle de 30 %.</p>"
+                        },
+                        "ko": {
+                            "title": "**학교 관리 시스템** 프로젝트 완료",
+                            "text": "<p style='text-align: justify;'>Pindi Foundation School을 위해 React, Node.js, Express, MongoDB를 사용하여 풀스택 웹 애플리케이션을 개발했습니다. 이 시스템은 관리 작업(예: 출석 추적, 요금 관리)과 학업 프로세스(예: 성적 보고, 시간표 작성)를 간소화하여 운영 효율성을 30% 향상시켰습니다.</p>"
+                        }
+                    }
+                },
+                {
+                    "dates": {"start": "01/01/2022", "end": null},
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Developed **Pharmacy Management System**",
+                            "text": "<p style='text-align: justify;'>Built a desktop application for Talha Pharmacy using C# and SQL Server. The system optimized inventory tracking, automated sales reporting, and reduced stock discrepancies by 25%, enhancing overall operational efficiency.</p>"
+                        },
+                        "es": {
+                            "title": "Desarrollé el **Sistema de Gestión de Farmacia**",
+                            "text": "<p style='text-align: justify;'>Construí una aplicación de escritorio para Talha Pharmacy usando C# y SQL Server. El sistema optimizó el seguimiento de inventario, automatizó los informes de ventas y redujo las discrepancias de stock en un 25%, mejorando la eficiencia operativa general.</p>"
+                        },
+                        "fr": {
+                            "title": "Développement du **Système de Gestion de Pharmacie**",
+                            "text": "<p style='text-align: justify;'>Créé une application de bureau pour Talha Pharmacy avec C# et SQL Server. Le système a optimisé le suivi des stocks, automatisé les rapports de ventes et réduit les écarts de stock de 25 %, améliorant l’efficacité opérationnelle globale.</p>"
+                        },
+                        "ko": {
+                            "title": "**약국 관리 시스템** 개발",
+                            "text": "<p style='text-align: justify;'>Talha Pharmacy를 위해 C#과 SQL Server를 사용하여 데스크톱 애플리케이션을 구축했습니다. 이 시스템은 재고 추적을 최적화하고, 판매 보고를 자동화하며, 재고 불일치를 25% 줄여 전반적인 운영 효율성을 향상시켰습니다.</p>"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

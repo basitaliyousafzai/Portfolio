@@ -1,0 +1,43 @@
+{
+    "locales": {
+        "en": {
+            "about": "About",
+            "all_categories": "All",
+            "cancel": "Cancel",
+            "close": "Close",
+            "email": "Email",
+            "experience_year_count_less_than_one": "Less than a year experience",
+            "experience_year_count_plural": "{x} years experience",
+            "experience_year_count_singular": "{x} year experience",
+            "filter_by": "Filter by: {x}",
+            "full_screen_enter": "Enter fullscreen",
+            "full_screen_exit": "Exit fullscreen",
+            "leaving_site": "You'll be redirected to an external page in a new tab: <span class='text-muted'><br>«$url»</span><br><br>Please confirm if you'd like to continue.",
+            "magic_cursor_on": "Magic Cursor: On",
+            "message": "Message",
+            "message_sent_error": "There was an error sending your message.",
+            "message_sent_success": "Your message has been sent successfully! I will respond as soon as possible.",
+            "more_info": "More Info",
+            "name": "Name",
+            "next": "Next",
+            "no": "No",
+            "now": "Now",
+            "open_gallery": "Open gallery",
+            "open_link": "Open link?",
+            "previous": "Previous",
+            "proceed": "Proceed",
+            "see_certification": "View certification",
+            "see_more": "See more",
+            "send_message": "Send message",
+            "subject": "Subject",
+            "theme_dark": "Dark Mode",
+            "theme_light": "Light Mode",
+            "toggle_sidebar": "Toggle sidebar",
+            "uhOh": "Uh-oh!",
+            "watch_video": "Watch video",
+            "where_to_find": "Where to find",
+            "yay": "Yay!",
+            "yes": "Yes"
+        }
+    }
+}

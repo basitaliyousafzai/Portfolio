@@ -1,0 +1,472 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Basit Ali!**"
+        },
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Basit Ali!**"
+        },
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Basit Ali!**"
+        },
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Basit Ali** 입니다!"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+            "items": [
+                {
+                    "value": "Pakistan Islamabad",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "basitaliyousafzai786@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:basitaliyousafzai786@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@BasitAli",
+                    "links": [
+                        {
+                            "href": "https://github.com/itzbasityz"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "es": {
+                    "title": "**Un poco** sobre mí..."
+                },
+                "fr": {
+                    "title": "**Un peu** à propos de moi..."
+                },
+                "ko": {
+                    "title": "저에 **대해 조금**..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p style='text-align: justify;'>I’m a full-stack developer with a strong foundation in <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, and <b>Firebase</b>. With hands-on experience in both frontend and backend development, I specialize in building scalable, efficient, and performance-optimized applications.</p><p style='text-align: justify;'>Throughout my career, I’ve worked extensively with technologies like <b>SQL</b>, <b>MongoDB</b>, and <b>C#</b>, developing solutions tailored to business needs across different industries. My problem-solving skills and attention to detail enable me to tackle complex challenges, whether it’s enhancing app performance or integrating seamless real-time features.</p><p style='text-align: justify;'>Currently, I’m enhancing applications and optimizing database performance as an <b>ASP.NET Core Developer</b> at <b>Multi Tech Solutions</b>. My diverse background allows me to adapt to various project requirements with ease, and I’m always eager to collaborate on innovative solutions.</p><p style='text-align: justify;'>I look forward to collaborating <b>with you!</b></p>"
+                        },
+                        "es": {
+                            "text": "<p style='text-align: justify;'>Soy un desarrollador full-stack con una base sólida en <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b> y <b>Firebase</b>. Con experiencia práctica en desarrollo frontend y backend, me especializo en crear aplicaciones escalables, eficientes y optimizadas en rendimiento.</p><p style='text-align: justify;'>A lo largo de mi carrera, he trabajado ampliamente con tecnologías como <b>SQL</b>, <b>MongoDB</b> y <b>C#</b>, desarrollando soluciones adaptadas a las necesidades empresariales en diversas industrias.</p><p style='text-align: justify;'>Actualmente, estoy mejorando aplicaciones y optimizando el rendimiento de las bases de datos como <b>Desarrollador de ASP.NET Core</b> en <b>Multi Tech Solutions</b>. Mi experiencia diversa me permite adaptarme fácilmente a los requisitos de diferentes proyectos, y siempre estoy dispuesto a colaborar en soluciones innovadoras.</p><p style='text-align: justify;'>¡Espero colaborar <b>contigo!</b></p>"
+                        },
+                        "fr": {
+                            "text": "<p style='text-align: justify;'>Je suis un développeur full-stack avec une solide expérience en <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b> et <b>Firebase</b>. Ayant une expérience pratique du développement frontend et backend, je suis spécialisé dans la création d'applications évolutives, efficaces et optimisées en termes de performances.</p><p style='text-align: justify;'>Tout au long de ma carrière, j'ai travaillé intensivement avec des technologies telles que <b>SQL</b>, <b>MongoDB</b> et <b>C#</b>, en développant des solutions adaptées aux besoins des entreprises dans divers secteurs.</p><p style='text-align: justify;'>Actuellement, j'améliore les applications et j'optimise les performances des bases de données en tant que <b>Développeur ASP.NET Core</b> chez <b>Multi Tech Solutions</b>. Mon expérience diversifiée me permet de m'adapter facilement aux exigences de différents projets, et je suis toujours prêt à collaborer sur des solutions innovantes.</p><p style='text-align: justify;'>J'ai hâte de collaborer <b>avec vous !</b></p>"
+                        },
+                        "ko": {
+                            "text": "<p style='text-align: justify;'>저는 <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, <b>Firebase</b>에 대한 탄탄한 기초를 가진 풀스택 개발자입니다. 프론트엔드와 백엔드 개발 모두에서 실무 경험이 있으며, 확장 가능하고 효율적이며 성능이 최적화된 애플리케이션을 만드는 데 전문성을 가지고 있습니다.</p><p style='text-align: justify;'>제 경력 동안 <b>SQL</b>, <b>MongoDB</b>, <b>C#</b>과 같은 기술을 광범위하게 활용해 다양한 산업의 비즈니스 요구에 맞춘 솔루션을 개발해왔습니다.</p><p style='text-align: justify;'>현재는 <b>Multi Tech Solutions</b>에서 <b>ASP.NET Core 개발자</b>로서 애플리케이션을 개선하고 데이터베이스 성능을 최적화하고 있습니다. 다양한 배경 덕분에 여러 프로젝트 요구사항에 유연하게 적응할 수 있으며, 혁신적인 솔루션을 위해 협업하는 것을 항상 즐깁니다.</p><p style='text-align: justify;'><b>여러분과 협력하기를 기대합니다!</b></p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Client **testimonials**"
+                },
+                "es": {
+                    "title": "Testimonios de **clientes**"
+                },
+                "fr": {
+                    "title": "Témoignages de **clients**"
+                },
+                "ko": {
+                    "title": "**고객** 추천사"
+                }
+            },
+            "items": [
+                {
+                    "value": "Anita Bath",
+                    "links": [
+                        {
+                            "href": "https://linkedin.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>SalesForce</b>",
+                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>SalesForce</b>",
+                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>SalesForce</b>",
+                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "세일즈포스  CEO",
+                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Lou Natic",
+                    "links": [
+                        {
+                            "href": "https://github.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Lead Developer at <b>MTS</b>",
+                            "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "es": {
+                            "info": "Desarrollador Principal en <b>NTS </b>",
+                            "text": "Tener a Mark en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
+                        },
+                        "fr": {
+                            "info": "Développeur Principal chez <b>MTS </b>",
+                            "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
+                        },
+                        "ko": {
+                            "info": "<b>MTS</b> 수석 개발자",
+                            "text": "우리 팀에 Mark가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Paige Turner",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Managing Director at <b>Dingga</b>",
+                            "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                        },
+                        "es": {
+                            "info": "Directora General en <b>Dingga</b>",
+                            "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
+                        },
+                        "fr": {
+                            "info": "Directrice Générale chez <b>Dingga</b>",
+                            "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
+                        },
+                        "ko": {
+                            "info": "딩가 전무이사",
+                            "text": "Mark와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Chris P. Bacon",
+                    "links": [
+                        {
+                            "href": "https://dribbble.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-4.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Creative Director at <b>Dribbble</b>",
+                            "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+                        },
+                        "es": {
+                            "info": "Directora Creativa en <b>Dribbble</b>",
+                            "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
+                        },
+                        "fr": {
+                            "info": "Directrice Créative chez <b>Dribbble</b>",
+                            "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
+                        },
+                        "ko": {
+                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
+                            "text": "Mark의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "es": {
+                    "title": "Intereses **personales**"
+                },
+                "fr": {
+                    "title": "Intérêts **personnels** "
+                },
+                "ko": {
+                    "title": "개인 **관심사**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing guitar",
+                            "info": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la guitare",
+                            "info": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "기타 연주",
+                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-video",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI video editing",
+                            "info": "Learning to use AI tools to enhance my videos."
+                        },
+                        "es": {
+                            "title": "Edición de video con IA",
+                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Montage vidéo avec IA",
+                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "AI 영상 편집",
+                            "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paint-brush",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Illustration",
+                            "info": "Practicing digital art and exploring new styles."
+                        },
+                        "es": {
+                            "title": "Ilustración",
+                            "info": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "Illustration",
+                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        },
+                        "ko": {
+                            "title": "일러스트레이션",
+                            "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Investing",
+                            "info": "Learning the basics of stocks and personal finance."
+                        },
+                        "es": {
+                            "title": "Invertir",
+                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "Investir",
+                            "info": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "투자",
+                            "info": "주식과 개인 재정의 기초 배우기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño UX",
+                            "info": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception UX",
+                            "info": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "UX 디자인",
+                            "info": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "Edición de fotos",
+                            "info": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "Retouche photo",
+                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "사진 편집",
+                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

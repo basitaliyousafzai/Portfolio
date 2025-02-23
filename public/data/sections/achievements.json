@@ -1,0 +1,109 @@
+{
+    "locales": {
+      "en": {
+        "title": "Awards",
+        "title_menu": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career **Achievements**"
+      },
+      "es": {
+        "title": "Logros",
+        "title_menu": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "**Logros** Profesionales"
+      },
+      "fr": {
+        "title": "Réalis",
+        "title_menu": "Réalisations",
+        "title_long_prefix": "Voici",
+        "title_long": "Mes **Réalisations**"
+      },
+      "ko": {
+        "title": "경력 성과",
+        "title_menu": "경력 성과",
+        "title_long_prefix": "다음은",
+        "title_long": "**경력 성과**입니다"
+      }
+    },
+    "articles": [
+      {
+        "id": "certifications",
+        "component": "ArticleCards",
+        "config": {},
+        "locales": {
+          "en": { "title": "Certifications" },
+          "es": { "title": "Certificaciones" },
+          "fr": { "title": "Certifications" },
+          "ko": { "title": "인증서" }
+        },
+        "items": [
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-code", "faColors": { "bg": "#0A0A0A", "fill": "#FFF" } },
+            "dates": { "start": "06/01/2023", "end": null },
+            "links": [
+              { "string": "see_certification", "href": "https://www.freecodecamp.org/certification/its_basitali/responsive-web-design" }
+            ],
+            "locales": {
+              "en": { "title": "Responsive **Web Design**", "text": "Certification by freeCodeCamp" },
+              "es": { "text": "Diseño Web Responsivo" },
+              "fr": { "text": "Conception Web Responsive" },
+              "ko": { "text": "반응형 웹 디자인" }
+            }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-js", "faColors": { "bg": "#F7DF1E", "fill": "#000" } },
+            "dates": { "start": "08/15/2023", "end": null },
+            "links": [
+              { "string": "see_certification", "href": "https://www.freecodecamp.org/certification/its_basitali/javascript-algorithms-and-data-structures-v8" }
+            ],
+            "locales": {
+              "en": { "title": "JavaScript **Algorithms** & Data Structures (Beta)", "text": "Certification by freeCodeCamp" },
+              "es": { "text": "Algoritmos y Estructuras de Datos en JavaScript (Beta)" },
+              "fr": { "text": "Algorithmes et Structures de Données JavaScript (Beta)" },
+              "ko": { "text": "자바스크립트 알고리즘 및 데이터 구조 (Beta)" }
+            }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-brands fa-react", "faColors": { "bg": "#61DBFB", "fill": "#20232A" } },
+            "dates": { "start": "10/10/2023", "end": null },
+            "links": [
+              { "string": "see_certification", "href": "https://www.freecodecamp.org/certification/its_basitali/front-end-development-libraries" }
+            ],
+            "locales": {
+              "en": { "title": "Front End Development **Libraries** (React)", "text": "Certification by freeCodeCamp" },
+              "es": { "text": "Bibliotecas de Desarrollo Front End (React)" },
+              "fr": { "text": "Bibliothèques de Développement Front End (React)" },
+              "ko": { "text": "프론트엔드 개발 라이브러리 (React)" }
+            }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-code-branch", "faColors": { "bg": "#333", "fill": "#FFF" } },
+            "dates": { "start": "10/20/2023", "end": null },
+            "links": [
+              { "string": "see_certification", "href": "https://www.freecodecamp.org/certification/its_basitali/legacy-front-end" }
+            ],
+            "locales": {
+              "en": { "title": "Legacy **Front End**", "text": "Certification by freeCodeCamp" },
+              "es": { "text": "Desarrollo Front End Legacy" },
+              "fr": { "text": "Ancien Développement Front End" },
+              "ko": { "text": "레거시 프론트엔드" }
+            }
+          },
+          {
+            "icon": { "img": null, "fa": "fa-solid fa-globe", "faColors": { "bg": "#007BFF", "fill": "#FFF" } },
+            "dates": { "start": "10/30/2023", "end": null },
+            "links": [
+              { "string": "see_certification", "href": "https://olympus.mygreatlearning.com/courses/65515/certificate" }
+            ],
+            "locales": {
+              "en": { "title": "Web **Development** (React)", "text": "Certification by Great Learning" },
+              "es": { "text": "Desarrollo Web (React)" },
+              "fr": { "text": "Développement Web (React)" },
+              "ko": { "text": "웹 개발 (React)" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

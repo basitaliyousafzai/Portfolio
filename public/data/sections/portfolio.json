@@ -1,0 +1,360 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "나의",
+            "title_long": "**포트폴리오**를 확인하세요"
+        }
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "Aplicación", "plural": "Aplicaciones"},
+                        "fr": {"singular": "Application", "plural": "Applications"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Websites"},
+                        "es": {"singular": "Sitio Web", "plural": "Sitios Web"},
+                        "fr": {"singular": "Site Web", "plural": "Sites Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹사이트들"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cart-shopping",
+                        "faColors": {"bg": "#0078D4", "fill": "#FFFFFF"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/basitaliyousafzai/dwatson"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/screenshots/dwatson-1.png",
+                                "images/screenshots/dwatson-2.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "D.Watson E-commerce Platform",
+                            "text": "<p style='text-align: justify;'>A robust e-commerce website built with <b>ASP.NET Core</b> and <b>SQL Server</b>. It features real-time inventory tracking, secure payment processing, and a responsive front-end for seamless user shopping experiences.</p>",
+                            "tags": ["ASP.NET Core", "E-commerce", "SQL"]
+                        },
+                        "es": {
+                            "title": "Plataforma de Comercio Electrónico D.Watson",
+                            "text": "<p style='text-align: justify;'>Un sitio web de comercio electrónico robusto construido con <b>ASP.NET Core</b> y <b>SQL Server</b>. Incluye seguimiento de inventario en tiempo real, procesamiento de pagos seguro y un front-end responsivo para experiencias de compra fluidas.</p>",
+                            "tags": ["ASP.NET Core", "Comercio Electrónico", "SQL"]
+                        },
+                        "fr": {
+                            "title": "Plateforme E-commerce D.Watson",
+                            "text": "<p style='text-align: justify;'>Un site e-commerce robuste développé avec <b>ASP.NET Core</b> et <b>SQL Server</b>. Il propose un suivi d’inventaire en temps réel, un traitement sécurisé des paiements et une interface responsive pour une expérience d’achat fluide.</p>",
+                            "tags": ["ASP.NET Core", "E-commerce", "SQL"]
+                        },
+                        "ko": {
+                            "title": "D.Watson 전자상거래 플랫폼",
+                            "text": "<p style='text-align: justify;'><b>ASP.NET Core</b>와 <b>SQL Server</b>로 구축된 견고한 전자상거래 웹사이트입니다. 실시간 재고 추적, 안전한 결제 처리, 원활한 사용자 쇼핑 경험을 위한 반응형 프론트엔드를 제공합니다.</p>",
+                            "tags": ["ASP.NET Core", "전자상거래", "SQL"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-school",
+                        "faColors": {"bg": "#61DAFB", "fill": "#FFFFFF"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/basitaliyousafzai/school-management"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/screenshots/schoolmgmt-1.png",
+                                "images/screenshots/schoolmgmt-2.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "School Management System",
+                            "text": "<p style='text-align: justify;'>A full-stack web application for Pindi Foundation School, developed using <b>React</b>, <b>Node.js</b>, <b>Express</b>, and <b>MongoDB</b>. It streamlines administrative tasks like attendance tracking and fee management while enhancing academic processes such as grade reporting.</p>",
+                            "tags": ["React", "Node.js", "MongoDB"]
+                        },
+                        "es": {
+                            "title": "Sistema de Gestión Escolar",
+                            "text": "<p style='text-align: justify;'>Una aplicación web full-stack para Pindi Foundation School, desarrollada con <b>React</b>, <b>Node.js</b>, <b>Express</b> y <b>MongoDB</b>. Optimiza tareas administrativas como el seguimiento de asistencia y la gestión de pagos, mejorando procesos académicos como los informes de calificaciones.</p>",
+                            "tags": ["React", "Node.js", "MongoDB"]
+                        },
+                        "fr": {
+                            "title": "Système de Gestion Scolaire",
+                            "text": "<p style='text-align: justify;'>Une application web full-stack pour Pindi Foundation School, développée avec <b>React</b>, <b>Node.js</b>, <b>Express</b> et <b>MongoDB</b>. Elle rationalise les tâches administratives comme le suivi des présences et la gestion des frais tout en améliorant les processus académiques tels que les rapports de notes.</p>",
+                            "tags": ["React", "Node.js", "MongoDB"]
+                        },
+                        "ko": {
+                            "title": "학교 관리 시스템",
+                            "text": "<p style='text-align: justify;'>Pindi Foundation School을 위한 풀스택 웹 애플리케이션으로, <b>React</b>, <b>Node.js</b>, <b>Express</b>, <b>MongoDB</b>를 사용해 개발되었습니다. 출석 추적 및 요금 관리와 같은 관리 작업을 간소화하고 성적 보고와 같은 학업 프로세스를 향상시킵니다.</p>",
+                            "tags": ["React", "Node.js", "MongoDB"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-prescription-bottle-medical",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#000000"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/basitaliyousafzai/pharmacy-management"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "4:3",
+                            "images": [
+                                "images/screenshots/pharmacy-1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pharmacy Management System",
+                            "text": "<p style='text-align: justify;'>A desktop utility for Talha Pharmacy, built with <b>C#</b> and <b>SQL Server</b>. It optimizes inventory tracking, automates sales reporting, and reduces stock discrepancies, improving operational efficiency.</p>",
+                            "tags": ["C#", "SQL Server", "Management"]
+                        },
+                        "es": {
+                            "title": "Sistema de Gestión de Farmacia",
+                            "text": "<p style='text-align: justify;'>Una utilidad de escritorio para Talha Pharmacy, construida con <b>C#</b> y <b>SQL Server</b>. Optimiza el seguimiento de inventario, automatiza los informes de ventas y reduce las discrepancias de stock, mejorando la eficiencia operativa.</p>",
+                            "tags": ["C#", "SQL Server", "Gestión"]
+                        },
+                        "fr": {
+                            "title": "Système de Gestion de Pharmacie",
+                            "text": "<p style='text-align: justify;'>Un utilitaire de bureau pour Talha Pharmacy, développé avec <b>C#</b> et <b>SQL Server</b>. Il optimise le suivi des stocks, automatise les rapports de ventes et réduit les écarts de stock, améliorant l’efficacité opérationnelle.</p>",
+                            "tags": ["C#", "SQL Server", "Gestion"]
+                        },
+                        "ko": {
+                            "title": "약국 관리 시스템",
+                            "text": "<p style='text-align: justify;'><b>C#</b>와 <b>SQL Server</b>로 구축된 Talha Pharmacy를 위한 데스크톱 유틸리티입니다. 재고 추적을 최적화하고, 판매 보고를 자동화하며, 재고 불일치를 줄여 운영 효율성을 향상시킵니다.</p>",
+                            "tags": ["C#", "SQL Server", "관리"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-store",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/screenshots/ftengineering-1.png",
+                                "images/screenshots/ftengineering-2.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ft Engineering E-commerce Suite",
+                            "text": "<p style='text-align: justify;'>A multi-platform e-commerce app suite built with <b>Flutter</b> and <b>Firebase</b>. Includes an admin panel, staff dashboard, and client app, all synchronized in real-time for seamless inventory and order management.</p>",
+                            "tags": ["Flutter", "Firebase", "E-commerce"]
+                        },
+                        "es": {
+                            "title": "Suite de Comercio Electrónico Ft Engineering",
+                            "text": "<p style='text-align: justify;'>Una suite de aplicaciones de comercio electrónico multiplataforma construida con <b>Flutter</b> y <b>Firebase</b>. Incluye un panel de administración, un dashboard para el personal y una aplicación para clientes, todo sincronizado en tiempo real para una gestión fluida de inventario y pedidos.</p>",
+                            "tags": ["Flutter", "Firebase", "Comercio Electrónico"]
+                        },
+                        "fr": {
+                            "title": "Suite E-commerce Ft Engineering",
+                            "text": "<p style='text-align: justify;'>Une suite d’applications e-commerce multiplateforme développée avec <b>Flutter</b> et <b>Firebase</b>. Comprend un panneau d’administration, un tableau de bord pour le personnel et une application client, tous synchronisés en temps réel pour une gestion fluide des stocks et des commandes.</p>",
+                            "tags": ["Flutter", "Firebase", "E-commerce"]
+                        },
+                        "ko": {
+                            "title": "Ft Engineering 전자상거래 스위트",
+                            "text": "<p style='text-align: justify;'><b>Flutter</b>와 <b>Firebase</b>로 구축된 다중 플랫폼 전자상거래 앱 스위트입니다. 관리자 패널, 직원 대시보드, 고객 앱을 포함하며, 모두 실시간으로 동기화되어 재고 및 주문 관리를 원활하게 합니다.</p>",
+                            "tags": ["Flutter", "Firebase", "전자상거래"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shirt",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/screenshots/tailor-1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailor Management App",
+                            "text": "<p style='text-align: justify;'>A mobile app for tailor shops, developed with <b>Flutter</b> and <b>Firebase</b>. It simplifies order management, tracks measurements, and automates appointments, enhancing workflow efficiency for small businesses.</p>",
+                            "tags": ["Flutter", "Firebase", "Management"]
+                        },
+                        "es": {
+                            "title": "Aplicación de Gestión para Sastres",
+                            "text": "<p style='text-align: justify;'>Una aplicación móvil para sastrerías, desarrollada con <b>Flutter</b> y <b>Firebase</b>. Simplifica la gestión de pedidos, rastrea medidas y automatiza citas, mejorando la eficiencia del flujo de trabajo para pequeñas empresas.</p>",
+                            "tags": ["Flutter", "Firebase", "Gestión"]
+                        },
+                        "fr": {
+                            "title": "Application de Gestion pour Tailleurs",
+                            "text": "<p style='text-align: justify;'>Une application mobile pour les tailleurs, développée avec <b>Flutter</b> et <b>Firebase</b>. Elle simplifie la gestion des commandes, suit les mesures et automatise les rendez-vous, améliorant l’efficacité du flux de travail pour les petites entreprises.</p>",
+                            "tags": ["Flutter", "Firebase", "Gestion"]
+                        },
+                        "ko": {
+                            "title": "재단사 관리 앱",
+                            "text": "<p style='text-align: justify;'><b>Flutter</b>와 <b>Firebase</b>로 개발된 재단사 가게용 모바일 앱입니다. 주문 관리, 치수 추적, 약속 자동화를 간소화하여 소규모 사업체의 작업 흐름 효율성을 높입니다.</p>",
+                            "tags": ["Flutter", "Firebase", "관리"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-stopwatch",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#000000"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/basitaliyousafzai/task-timer"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "4:3",
+                            "images": [
+                                "images/screenshots/tasktimer-1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Task Timer",
+                            "text": "<p style='text-align: justify;'>A simple desktop utility built with <b>C#</b> to track task durations and improve productivity. Features include a clean interface, exportable time logs, and customizable alerts for time management.</p>",
+                            "tags": ["C#", "Productivity", "Time Tracking"]
+                        },
+                        "es": {
+                            "title": "Temporizador de Tareas",
+                            "text": "<p style='text-align: justify;'>Una utilidad de escritorio simple construida con <b>C#</b> para rastrear la duración de tareas y mejorar la productividad. Incluye una interfaz limpia, registros de tiempo exportables y alertas personalizables para la gestión del tiempo.</p>",
+                            "tags": ["C#", "Productividad", "Seguimiento de Tiempo"]
+                        },
+                        "fr": {
+                            "title": "Minuteur de Tâches",
+                            "text": "<p style='text-align: justify;'>Un utilitaire de bureau simple développé avec <b>C#</b> pour suivre la durée des tâches et améliorer la productivité. Il propose une interface épurée, des journaux de temps exportables et des alertes personnalisables pour la gestion du temps.</p>",
+                            "tags": ["C#", "Productivité", "Suivi du Temps"]
+                        },
+                        "ko": {
+                            "title": "태스크 타이머",
+                            "text": "<p style='text-align: justify;'><b>C#</b>로 구축된 간단한 데스크톱 유틸리티로, 작업 시간을 추적하여 생산성을 향상시킵니다. 깔끔한 인터페이스, 내보낼 수 있는 시간 로그, 시간 관리를 위한 사용자 지정 알림을 제공합니다.</p>",
+                            "tags": ["C#", "생산성", "시간 추적"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-wallet",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/screenshots/expense-1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Expense Tracker",
+                            "text": "<p style='text-align: justify;'>A lightweight mobile app built with <b>Flutter</b> and <b>Firebase</b> to manage personal finances. It offers real-time expense logging, budget categorization, and a simple dashboard for financial insights.</p>",
+                            "tags": ["Flutter", "Firebase", "Finance"]
+                        },
+                        "es": {
+                            "title": "Rastreador de Gastos",
+                            "text": "<p style='text-align: justify;'>Una aplicación móvil ligera construida con <b>Flutter</b> y <b>Firebase</b> para gestionar finanzas personales. Ofrece registro de gastos en tiempo real, categorización de presupuestos y un tablero simple para obtener información financiera.</p>",
+                            "tags": ["Flutter", "Firebase", "Finanzas"]
+                        },
+                        "fr": {
+                            "title": "Suivi des Dépenses",
+                            "text": "<p style='text-align: justify;'>Une application mobile légère développée avec <b>Flutter</b> et <b>Firebase</b> pour gérer les finances personnelles. Elle propose un enregistrement des dépenses en temps réel, une catégorisation des budgets et un tableau de bord simple pour des insights financiers.</p>",
+                            "tags": ["Flutter", "Firebase", "Finances"]
+                        },
+                        "ko": {
+                            "title": "지출 추적기",
+                            "text": "<p style='text-align: justify;'><b>Flutter</b>와 <b>Firebase</b>로 구축된 가벼운 모바일 앱으로 개인 재정을 관리합니다. 실시간 지출 기록, 예산 분류, 재무 통찰을 위한 간단한 대시보드를 제공합니다.</p>",
+                            "tags": ["Flutter", "Firebase", "재정"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

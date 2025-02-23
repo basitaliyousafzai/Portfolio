@@ -1,0 +1,145 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-graduation-cap",
+                        "faColors": {"bg": "#0078D4", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "09/01/2020",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor's** in Computer Science",
+                            "info": "Federal Urdu University of Arts, Science and Technology, Islamabad, Pakistan",
+                            "text": "<p style='text-align: justify;'>Earned a Bachelor’s degree in Computer Science with a comprehensive curriculum designed to build expertise in modern software development. Major subjects included:</p> <ul><li><b>Programming Fundamentals</b>: Mastered languages like C# and JavaScript.</li><li><b>Data Structures & Algorithms</b>: Developed efficient problem-solving techniques.</li><li><b>Database Systems</b>: Gained proficiency in SQL and MongoDB for data management.</li><li><b>Software Engineering</b>: Learned lifecycle management and project development.</li><li><b>Web Development</b>: Built applications using ASP.NET Core and React.</li><li><b>Mobile Development</b>: Created cross-platform apps with Flutter.</li></ul> <p style='text-align: justify;' class='mt-3'>This program equipped me with a strong foundation in full-stack development through hands-on projects and practical training.</p>",
+                            "tags": ["Computer Science", "ASP.NET Core", "Flutter", "React", "C#", "SQL", "MongoDB", "Software Engineering"]
+                        },
+                        "es": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "Universidad Federal Urdu de Artes, Ciencia y Tecnología, Islamabad, Pakistán",
+                            "text": "<p style='text-align: justify;'>Obtuve una Licenciatura en Ciencias de la Computación con un currículo integral diseñado para desarrollar experiencia en desarrollo de software moderno. Las materias principales incluyeron:</p> <ul><li><b>Fundamentos de Programación</b>: Dominé lenguajes como C# y JavaScript.</li><li><b>Estructuras de Datos y Algoritmos</b>: Desarrollé técnicas eficientes de resolución de problemas.</li><li><b>Sistemas de Bases de Datos</b>: Adquirí competencia en SQL y MongoDB para la gestión de datos.</li><li><b>Ingeniería de Software</b>: Aprendí la gestión del ciclo de vida y el desarrollo de proyectos.</li><li><b>Desarrollo Web</b>: Construí aplicaciones con ASP.NET Core y React.</li><li><b>Desarrollo Móvil</b>: Creé aplicaciones multiplataforma con Flutter.</li></ul> <p style='text-align: justify;' class='mt-3'>Este programa me dotó de una base sólida en desarrollo full-stack a través de proyectos prácticos y formación aplicada.</p>",
+                            "tags": ["Ciencias de la Computación", "ASP.NET Core", "Flutter", "React", "C#", "SQL", "MongoDB", "Ingeniería de Software"]
+                        },
+                        "fr": {
+                            "title": "**Licence** en Informatique",
+                            "info": "Université Fédérale Urdu des Arts, Sciences et Technologies, Islamabad, Pakistan",
+                            "text": "<p style='text-align: justify;'>Obtenu une Licence en Informatique avec un programme complet conçu pour développer une expertise dans le développement logiciel moderne. Les matières principales comprenaient :</p> <ul><li><b>Fondements de la Programmation</b> : Maîtrisé des langages comme C# et JavaScript.</li><li><b>Structures de Données et Algorithmes</b> : Développé des techniques efficaces de résolution de problèmes.</li><li><b>Systèmes de Bases de Données</b> : Acquis une maîtrise de SQL et MongoDB pour la gestion des données.</li><li><b>Ingénierie Logicielle</b> : Appris la gestion du cycle de vie et le développement de projets.</li><li><b>Développement Web</b> : Construit des applications avec ASP.NET Core et React.</li><li><b>Développement Mobile</b> : Créé des applications multiplateformes avec Flutter.</li></ul> <p style='text-align: justify;' class='mt-3'>Ce programme m’a doté d’une base solide en développement full-stack grâce à des projets pratiques et une formation appliquée.</p>",
+                            "tags": ["Informatique", "ASP.NET Core", "Flutter", "React", "C#", "SQL", "MongoDB", "Ingénierie Logicielle"]
+                        },
+                        "ko": {
+                            "title": "**학사** 컴퓨터 과학",
+                            "info": "페더럴 우르두 예술, 과학 및 기술 대학교, 이슬라마바드, 파키스탄",
+                            "text": "<p style='text-align: justify;'>현대 소프트웨어 개발 전문성을 구축하기 위해 설계된 포괄적인 커리큘럼으로 컴퓨터 과학 학사 학위를 취득했습니다. 주요 과목은 다음과 같습니다:</p> <ul><li><b>프로그래밍 기초</b>: C# 및 JavaScript와 같은 언어를 숙달했습니다.</li><li><b>데이터 구조 및 알고리즘</b>: 효율적인 문제 해결 기술을 개발했습니다.</li><li><b>데이터베이스 시스템</b>: 데이터 관리를 위해 SQL과 MongoDB에 능숙해졌습니다.</li><li><b>소프트웨어 공학</b>: 생명 주기 관리와 프로젝트 개발을 배웠습니다.</li><li><b>웹 개발</b>: ASP.NET Core와 React로 애플리케이션을 구축했습니다.</li><li><b>모바일 개발</b>: Flutter로 크로스 플랫폼 앱을 제작했습니다.</li></ul> <p style='text-align: justify;' class='mt-3'>이 프로그램은 실습 프로젝트와 실질적인 훈련을 통해 풀스택 개발에 강력한 기반을 제공했습니다.</p>",
+                            "tags": ["컴퓨터 과학", "ASP.NET Core", "Flutter", "React", "C#", "SQL", "MongoDB", "소프트웨어 공학"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book-open",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#000000"}
+                    },
+                    "dates": {
+                        "start": "08/01/2017",
+                        "end": "07/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Intermediate** in Computer Science (ICS)",
+                            "info": "Pakistan Advanced College of Excellence, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Completed Intermediate education with a focus on Computer Science (ICS), delving into key subjects such as:</p> <ul><li><b>Mathematics</b>: Strengthened analytical and problem-solving skills.</li><li><b>Physics</b>: Explored principles of electronics and mechanics.</li><li><b>Computer Science</b>: Introduced to basic computing concepts and software applications.</li></ul> <p style='text-align: justify;' class='mt-3'>This program solidified my technical aptitude and prepared me for advanced studies in computer science.</p>",
+                            "tags": ["Computer Science", "Mathematics", "Physics"]
+                        },
+                        "es": {
+                            "title": "**Intermedio** en Ciencias de la Computación (ICS)",
+                            "info": "Colegio Avanzado de Excelencia de Pakistán, Rawalpindi, Pakistán",
+                            "text": "<p style='text-align: justify;'>Completé la educación intermedia con un enfoque en Ciencias de la Computación (ICS), profundizando en materias clave como:</p> <ul><li><b>Matemáticas</b>: Fortalecí habilidades analíticas y de resolución de problemas.</li><li><b>Física</b>: Exploré principios de electrónica y mecánica.</li><li><b>Ciencias de la Computación</b>: Me introduje a conceptos básicos de informática y aplicaciones de software.</li></ul> <p style='text-align: justify;' class='mt-3'>Este programa consolidó mi aptitud técnica y me preparó para estudios avanzados en ciencias de la computación.</p>",
+                            "tags": ["Ciencias de la Computación", "Matemáticas", "Física"]
+                        },
+                        "fr": {
+                            "title": "**Intermédiaire** en Informatique (ICS)",
+                            "info": "Collège Avancé d’Excellence du Pakistan, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Terminé une éducation intermédiaire axée sur l’Informatique (ICS), en approfondissant des sujets clés tels que :</p> <ul><li><b>Mathématiques</b> : Renforcé mes compétences analytiques et de résolution de problèmes.</li><li><b>Physique</b> : Exploré les principes de l’électronique et de la mécanique.</li><li><b>Informatique</b> : Introduit aux concepts de base de l’informatique et aux applications logicielles.</li></ul> <p style='text-align: justify;' class='mt-3'>Ce programme a solidifié mon aptitude technique et m’a préparé à des études avancées en informatique.</p>",
+                            "tags": ["Informatique", "Mathématiques", "Physique"]
+                        },
+                        "ko": {
+                            "title": "**중급** 컴퓨터 과학 (ICS)",
+                            "info": "파키스탄 우수 고급 대학, 라왈핀디, 파키스탄",
+                            "text": "<p style='text-align: justify;'>컴퓨터 과학 (ICS)에 중점을 두고 중급 교육을 완료하며 다음 주요 과목을 깊이 탐구했습니다:</p> <ul><li><b>수학</b>: 분석 및 문제 해결 능력을 강화했습니다.</li><li><b>물리학</b>: 전자공학 및 역학 원리를 탐구했습니다.</li><li><b>컴퓨터 과학</b>: 컴퓨팅 기본 개념과 소프트웨어 응용 프로그램을 접했습니다.</li></ul> <p style='text-align: justify;' class='mt-3'>이 프로그램은 제 기술적 적성을 강화하고 컴퓨터 과학의 고급 학습을 준비하게 했습니다.</p>",
+                            "tags": ["컴퓨터 과학", "수학", "물리학"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": {"bg": "#4CAF50", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "04/01/2015",
+                        "end": "03/01/2016"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Matriculation** in Science",
+                            "info": "FG Sir Syed Boys Secondary School, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Completed Matriculation with a focus on Science, mastering foundational subjects such as:</p> <ul><li><b>Mathematics</b>: Built a strong base in numerical reasoning and problem-solving.</li><li><b>Physics</b>: Learned fundamental principles of physical sciences.</li><li><b>Chemistry</b>: Explored chemical reactions and properties.</li><li><b>Computer Science</b>: Introduced to basic computing and coding concepts.</li></ul> <p style='text-align: justify;' class='mt-3'>This education ignited my passion for technology and laid the groundwork for my future academic and professional pursuits.</p>",
+                            "tags": ["Science", "Mathematics", "Physics", "Chemistry", "Computer Science"]
+                        },
+                        "es": {
+                            "title": "**Matriculación** en Ciencias",
+                            "info": "Escuela Secundaria FG Sir Syed para Niños, Rawalpindi, Pakistán",
+                            "text": "<p style='text-align: justify;'>Completé la Matriculación con un enfoque en Ciencias, dominando materias fundamentales como:</p> <ul><li><b>Matemáticas</b>: Construí una base sólida en razonamiento numérico y resolución de problemas.</li><li><b>Física</b>: Aprendí principios fundamentales de las ciencias físicas.</li><li><b>Química</b>: Exploré reacciones y propiedades químicas.</li><li><b>Ciencias de la Computación</b>: Me introduje a conceptos básicos de informática y codificación.</li></ul> <p style='text-align: justify;' class='mt-3'>Esta educación encendió mi pasión por la tecnología y sentó las bases para mis futuros logros académicos y profesionales.</p>",
+                            "tags": ["Ciencias", "Matemáticas", "Física", "Química", "Ciencias de la Computación"]
+                        },
+                        "fr": {
+                            "title": "**Matriculation** en Sciences",
+                            "info": "École Secondaire FG Sir Syed pour Garçons, Rawalpindi, Pakistan",
+                            "text": "<p style='text-align: justify;'>Terminé la Matriculation avec un accent sur les Sciences, maîtrisant des matières fondamentales telles que :</p> <ul><li><b>Mathématiques</b> : Construit une base solide en raisonnement numérique et résolution de problèmes.</li><li><b>Physique</b> : Appris les principes fondamentaux des sciences physiques.</li><li><b>Chimie</b> : Exploré les réactions et propriétés chimiques.</li><li><b>Informatique</b> : Introduit aux concepts de base de l’informatique et du codage.</li></ul> <p style='text-align: justify;' class='mt-3'>Cette éducation a éveillé ma passion pour la technologie et a jeté les bases de mes futures réalisations académiques et professionnelles.</p>",
+                            "tags": ["Sciences", "Mathématiques", "Physique", "Chimie", "Informatique"]
+                        },
+                        "ko": {
+                            "title": "**수료** 과학",
+                            "info": "FG Sir Syed 남자 중급 학교, 라왈핀디, 파키스탄",
+                            "text": "<p style='text-align: justify;'>과학에 중점을 두고 수료를 완료하며 다음 기초 과목을 숙달했습니다:</p> <ul><li><b>수학</b>: 수치적 추론과 문제 해결에 강한 기초를 쌓았습니다.</li><li><b>물리학</b>: 물리 과학의 기본 원리를 배웠습니다.</li><li><b>화학</b>: 화학 반응과 특성을 탐구했습니다.</li><li><b>컴퓨터 과학</b>: 컴퓨팅 및 코딩 기본 개념을 접했습니다.</li></ul> <p style='text-align: justify;' class='mt-3'>이 교육은 기술에 대한 열정을 불태우며 미래 학문 및 직업적 추구의 토대를 마련했습니다.</p>",
+                            "tags": ["과학", "수학", "물리학", "화학", "컴퓨터 과학"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,438 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Basit Ali!**"
+        },
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Basit Ali!**"
+        },
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Basit Ali!**"
+        },
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Basit Ali** 입니다!"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+            "items": [
+                {
+                    "value": "Rawalpindi, Pakistan",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "basitaliyousafzai786@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:basitaliyousafzai786@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@Basit Ali",
+                    "links": [
+                        {
+                            "href": "https://github.com/basitaliyousafzai"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "es": {
+                    "title": "**Un poco** sobre mí..."
+                },
+                "fr": {
+                    "title": "**Un peu** à propos de moi..."
+                },
+                "ko": {
+                    "title": "저에 **대해 조금**..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p style='text-align: justify;'>I’m a Web Developer with a Bachelor’s in Computer Science, passionate about building efficient and scalable applications using technologies like <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, <b>C#</b>, <b>SQL</b>, and <b>MongoDB</b> with <b>Firebase</b>. I specialize in both front-end and back-end development, delivering clean, optimized code and seamless user experiences.</p><p style='text-align: justify;'>Currently, I’m an <b>ASP.NET Core Developer</b> at <b>Multi Tech Solutions</b>, where I solve performance-related issues, develop new features, and work on projects like D.Watson, Margala Packages, and Butt Karhai, managing both front-end pages and back-end systems.</p><p style='text-align: justify;'>Previously, I worked as a <b>Flutter Developer</b> at <b>Dev for Health</b>, creating mobile applications integrated with .NET Core backends for healthcare solutions. My experience spans multiple industries, and I enjoy tackling complex challenges to meet technical and business goals.</p><p style='text-align: justify;'>I’m excited to collaborate <b>with you</b> on innovative projects!</p>"
+                        },
+                        "es": {
+                            "text": "<p style='text-align: justify;'>Soy un desarrollador web con una Licenciatura en Ciencias de la Computación, apasionado por construir aplicaciones eficientes y escalables utilizando tecnologías como <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, <b>C#</b>, <b>SQL</b> y <b>MongoDB</b> con <b>Firebase</b>. Me especializo en desarrollo tanto de front-end como de back-end, entregando código limpio y optimizado, además de experiencias de usuario fluidas.</p><p style='text-align: justify;'>Actualmente, soy un <b>Desarrollador de ASP.NET Core</b> en <b>Multi Tech Solutions</b>, donde resuelvo problemas relacionados con el rendimiento, desarrollo nuevas funcionalidades y trabajo en proyectos como D.Watson, Margala Packages y Butt Karhai, gestionando tanto las páginas de front-end como los sistemas de back-end.</p><p style='text-align: justify;'>Anteriormente, trabajé como <b>Desarrollador de Flutter</b> en <b>Dev for Health</b>, creando aplicaciones móviles integradas con backends de .NET Core para soluciones de salud.</p><p style='text-align: justify;'>¡Estoy emocionado de colaborar <b>contigo</b> en proyectos innovadores!</p>"
+                        },
+                        "fr": {
+                            "text": "<p style='text-align: justify;'>Je suis un développeur web titulaire d’une licence en informatique, passionné par la création d’applications efficaces et évolutives avec des technologies telles que <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, <b>C#</b>, <b>SQL</b> et <b>MongoDB</b> avec <b>Firebase</b>. Je me spécialise dans le développement front-end et back-end, en fournissant un code propre et optimisé ainsi que des expériences utilisateur fluides.</p><p style='text-align: justify;'>Actuellement, je suis <b>Développeur ASP.NET Core</b> chez <b>Multi Tech Solutions</b>, où je résous des problèmes liés aux performances, développe de nouvelles fonctionnalités et travaille sur des projets comme D.Watson, Margala Packages et Butt Karhai, en gérant à la fois les pages front-end et les systèmes back-end.</p><p style='text-align: justify;'>Auparavant, j’ai travaillé comme <b>Développeur Flutter</b> chez <b>Dev for Health</b>, en créant des applications mobiles intégrées à des backends .NET Core pour des solutions de santé.</p><p style='text-align: justify;'>J’ai hâte de collaborer <b>avec vous</b> sur des projets innovants !</p>"
+                        },
+                        "ko": {
+                            "text": "<p style='text-align: justify;'>저는 컴퓨터 과학 학士를 가진 웹 개발자로, <b>ASP.NET Core</b>, <b>Flutter</b>, <b>React</b>, <b>C#</b>, <b>SQL</b>, <b>MongoDB</b>와 <b>Firebase</b>와 같은 기술을 사용해 효율적이고 확장 가능한 애플리케이션을 만드는 데 열정을 가지고 있습니다. 프론트엔드와 백엔드 개발 모두에 특화되어 있으며, 깔끔하고 최적화된 코드를 제공하며 원활한 사용자 경험을 보장합니다.</p><p style='text-align: justify;'>현재 <b>Multi Tech Solutions</b>에서 <b>ASP.NET Core 개발자</b>로 근무 중이며, 성능 관련 문제를 해결하고, 새로운 기능을 개발하며, D.Watson, Margala Packages, Butt Karhai와 같은 프로젝트에서 프론트엔드 페이지와 백엔드 시스템을 관리하고 있습니다.</p><p style='text-align: justify;'>이전에는 <b>Dev for Health</b>에서 <b>Flutter 개발자</b>로 일하며 의료 솔루션을 위한 .NET Core 백엔드와 통합된 모바일 애플리케이션을 개발했습니다.</p><p style='text-align: justify;'><b>여러분과 함께</b> 혁신적인 프로젝트에서 협력하고 싶습니다!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+       
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Work **Testimonials**"
+                },
+                "es": {
+                    "title": "Testimonios de **Trabajo**"
+                },
+                "fr": {
+                    "title": "Témoignages de **Travail**"
+                },
+                "ko": {
+                    "title": "**업무** 추천사"
+                }
+            },
+            "items": [
+                {
+                    "value": "Team Lead",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-tie",
+                        "faColors": {"bg": "#0078D4", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Team Lead at <b>Multi Tech Solutions</b>",
+                            "text": "Basit’s expertise in ASP.NET Core and his ability to optimize application performance have been invaluable. His work on projects like D.Watson and Butt Karhai significantly improved our systems, delivering measurable results under tight deadlines."
+                        },
+                        "es": {
+                            "info": "Líder de equipo en <b>Multi Tech Solutions</b>",
+                            "text": "La experiencia de Basit en ASP.NET Core y su capacidad para optimizar el rendimiento de las aplicaciones han sido invaluables. Su trabajo en proyectos como D.Watson y Butt Karhai mejoró significativamente nuestros sistemas, entregando resultados medibles bajo plazos ajustados."
+                        },
+                        "fr": {
+                            "info": "Chef d’équipe chez <b>Multi Tech Solutions</b>",
+                            "text": "L’expertise de Basit en ASP.NET Core et sa capacité à optimiser les performances des applications ont été précieuses. Son travail sur des projets comme D.Watson et Butt Karhai a considérablement amélioré nos systèmes, offrant des résultats mesurables dans des délais serrés."
+                        },
+                        "ko": {
+                            "info": "<b>Multi Tech Solutions</b> 팀 리더",
+                            "text": "Basit의 ASP.NET Core 전문성과 애플리케이션 성능 최적화 능력은 매우 귀중했습니다. D.Watson과 Butt Karhai 같은 프로젝트에서의 그의 작업은 우리 시스템을 크게 개선했으며, 촉박한 마감 기한 아래에서도 측정 가능한 결과를 제공했습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Project Manager",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-tie",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Project Manager at <b>Dev for Health</b>",
+                            "text": "Basit’s contributions as a Flutter Developer were outstanding. His ability to integrate Flutter with .NET Core backends made our healthcare app both scalable and efficient, exceeding our expectations for quality and delivery speed."
+                        },
+                        "es": {
+                            "info": "Gerente de proyectos en <b>Dev for Health</b>",
+                            "text": "Las contribuciones de Basit como desarrollador de Flutter fueron excepcionales. Su capacidad para integrar Flutter con backends de .NET Core hizo que nuestra aplicación de salud fuera escalable y eficiente, superando nuestras expectativas de calidad y velocidad de entrega."
+                        },
+                        "fr": {
+                            "info": "Chef de projet chez <b>Dev for Health</b>",
+                            "text": "Les contributions de Basit en tant que développeur Flutter ont été remarquables. Sa capacité à intégrer Flutter avec des backends .NET Core a rendu notre application de santé évolutive et efficace, dépassant nos attentes en termes de qualité et de rapidité de livraison."
+                        },
+                        "ko": {
+                            "info": "<b>Dev for Health</b> 프로젝트 매니저",
+                            "text": "Basit의 Flutter 개발자로서의 기여는 뛰어났습니다. Flutter를 .NET Core 백엔드와 통합하는 그의 능력은 우리의 의료 앱을 확장 가능하고 효율적으로 만들어 품질과 납기 속도에 대한 우리의 기대를 뛰어넘었습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Client",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-check",
+                        "faColors": {"bg": "#FF5722", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Owner of <b>Talha Pharmacy</b>",
+                            "text": "Basit delivered an exceptional Pharmacy Management System for us using C# and SQL. His solution streamlined our inventory and sales processes, reducing errors by 25%. His professionalism and technical insight were top-notch."
+                        },
+                        "es": {
+                            "info": "Propietario de <b>Talha Pharmacy</b>",
+                            "text": "Basit nos proporcionó un excepcional Sistema de Gestión de Farmacia usando C# y SQL. Su solución optimizó nuestros procesos de inventario y ventas, reduciendo errores en un 25%. Su profesionalismo y perspicacia técnica fueron de primera categoría."
+                        },
+                        "fr": {
+                            "info": "Propriétaire de <b>Talha Pharmacy</b>",
+                            "text": "Basit a livré un système de gestion de pharmacie exceptionnel en utilisant C# et SQL. Sa solution a rationalisé nos processus d’inventaire et de vente, réduisant les erreurs de 25 %. Son professionnalisme et sa perspicacité technique étaient irréprochables."
+                        },
+                        "ko": {
+                            "info": "<b>Talha Pharmacy</b> 소유주",
+                            "text": "Basit은 C#과 SQL을 사용해 우리에게 뛰어난 약국 관리 시스템을 제공했습니다. 그의 솔루션은 재고와 판매 프로세스를 간소화하여 오류를 25% 줄였습니다. 그의 전문성과 기술적 통찰력은 최고 수준이었습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Client",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-check",
+                        "faColors": {"bg": "#4CAF50", "fill": "#FFFFFF"}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Administrator at <b>Pindi Foundation School</b>",
+                            "text": "Basit’s School Management System transformed our administrative operations. Built with React and Node.js, it simplified attendance tracking and fee management, boosting efficiency by 30%. His dedication and innovative approach made a huge impact."
+                        },
+                        "es": {
+                            "info": "Administrador en <b>Pindi Foundation School</b>",
+                            "text": "El Sistema de Gestión Escolar de Basit transformó nuestras operaciones administrativas. Construido con React y Node.js, simplificó el seguimiento de asistencia y la gestión de pagos, aumentando la eficiencia en un 30%. Su dedicación y enfoque innovador tuvieron un gran impacto."
+                        },
+                        "fr": {
+                            "info": "Administrateur chez <b>Pindi Foundation School</b>",
+                            "text": "Le système de gestion scolaire de Basit a transformé nos opérations administratives. Développé avec React et Node.js, il a simplifié le suivi des présences et la gestion des frais, augmentant l’efficacité de 30 %. Son dévouement et son approche innovante ont eu un impact considérable."
+                        },
+                        "ko": {
+                            "info": "<b>Pindi Foundation School</b> 관리자",
+                            "text": "Basit의 학교 관리 시스템은 우리의 행정 운영을 변화시켰습니다. React와 Node.js로 구축된 이 시스템은 출석 추적과 요금 관리를 단순화하여 효율성을 30% 향상시켰습니다. 그의 헌신과 혁신적인 접근 방식은 큰 영향을 미쳤습니다."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **Interests**"
+                },
+                "es": {
+                    "title": "Intereses **Personales**"
+                },
+                "fr": {
+                    "title": "Intérêts **Personnels**"
+                },
+                "ko": {
+                    "title": "개인 **관심사**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-futbol",
+                        "faColors": {"bg": "#4CAF50", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Football",
+                            "info": "Playing football to stay active and enjoy team dynamics on the field."
+                        },
+                        "es": {
+                            "title": "Fútbol",
+                            "info": "Jugando fútbol para mantenerme activo y disfrutar de la dinámica de equipo en el campo."
+                        },
+                        "fr": {
+                            "title": "Football",
+                            "info": "Jouer au football pour rester actif et profiter de la dynamique d’équipe sur le terrain."
+                        },
+                        "ko": {
+                            "title": "축구",
+                            "info": "축구를 하며 활동적으로 지내고 필드에서의 팀 다이내믹스를 즐깁니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-dumbbell",
+                        "faColors": {"bg": "#FF5722", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Fitness Training",
+                            "info": "Engaging in strength and cardio workouts to maintain peak physical condition."
+                        },
+                        "es": {
+                            "title": "Entrenamiento de Fitness",
+                            "info": "Participando en entrenamientos de fuerza y cardio para mantener una condición física óptima."
+                        },
+                        "fr": {
+                            "title": "Entraînement Physique",
+                            "info": "Participer à des entraînements de force et cardio pour maintenir une condition physique optimale."
+                        },
+                        "ko": {
+                            "title": "피트니스 훈련",
+                            "info": "근력 및 유산소 운동에 참여하여 최상의 신체 상태를 유지합니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-microchip",
+                        "faColors": {"bg": "#0078D4", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Algorithm Optimization",
+                            "info": "Tinkering with data structures and algorithms to solve complex coding challenges."
+                        },
+                        "es": {
+                            "title": "Optimización de Algoritmos",
+                            "info": "Experimentando con estructuras de datos y algoritmos para resolver desafíos de codificación complejos."
+                        },
+                        "fr": {
+                            "title": "Optimisation d’Algorithmes",
+                            "info": "Jouer avec les structures de données et les algorithmes pour résoudre des défis de codage complexes."
+                        },
+                        "ko": {
+                            "title": "알고리즘 최적화",
+                            "info": "데이터 구조와 알고리즘을 조정하며 복잡한 코딩 문제를 해결합니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-alt",
+                        "faColors": {"bg": "#4285F4", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Mobile App Prototyping",
+                            "info": "Crafting quick Flutter prototypes to test innovative app ideas."
+                        },
+                        "es": {
+                            "title": "Prototipado de Apps Móviles",
+                            "info": "Creando prototipos rápidos con Flutter para probar ideas innovadoras de aplicaciones."
+                        },
+                        "fr": {
+                            "title": "Prototypage d’Applications Mobiles",
+                            "info": "Créant des prototypes rapides avec Flutter pour tester des idées d’applications innovantes."
+                        },
+                        "ko": {
+                            "title": "모바일 앱 프로토타이핑",
+                            "info": "Flutter로 빠른 프로토타입을 만들어 혁신적인 앱 아이디어를 테스트합니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bicycle",
+                        "faColors": {"bg": "#673AB7", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cycling",
+                            "info": "Riding through scenic routes to stay fit and enjoy the outdoors."
+                        },
+                        "es": {
+                            "title": "Ciclismo",
+                            "info": "Montando en bicicleta por rutas escénicas para mantenerme en forma y disfrutar del aire libre."
+                        },
+                        "fr": {
+                            "title": "Cyclisme",
+                            "info": "Faire du vélo sur des routes pittoresques pour rester en forme et profiter de la nature."
+                        },
+                        "ko": {
+                            "title": "사이클링",
+                            "info": "풍경 좋은 경로를 자전거로 달리며 체력을 유지하고 야외를 즐깁니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
