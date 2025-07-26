@@ -144,7 +144,7 @@ Additional libraries:
 
 ## License
 
-Released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify it as you wish.
+Released under the [Basit Ali](https://opensource.org/licenses/MIT). Feel free to use and modify it as you wish.
 
 If you find this template helpful, give it a ⭐ on GitHub!
 
